@@ -15,8 +15,10 @@
 			color: black;
 			font-size: 16px;
 			font-family: Bebas Neue;
+			background-color: hotpink;
+			margin: 0;
 		}
-
+        
 		#page-title{
 			 color: red;
 		}
@@ -26,21 +28,37 @@
 		}
 
 		body article,h1,p,main{
-			border-color: rgba(0,0,0,0.5);
-			border-width: 10px;
-			border-style: solid;
+			/*border-color: rgba(0,0,0,0.5);
+			border-width: 1px;
+			border-style: solid;*/
 		}
 
 		article.band-history{
 			width: 80ch;
 			margin: 0 auto;
+			background-color: whitesmoke;
+			padding:  4px;
+			padding-top: 1px;
+			padding-bottom: 1px;
+
 		}
 
-		img.article-image{
+		img.article-img{
 			border: 1px solid red;
-			width: 100px;
 			width: 100%;
 		}
+
+		p.video{
+			border: 4px solid darkred;
+			height: 480px;
+
+		}
+
+		p iframe {
+		    width: 100%;
+		    height: 100%;
+		}
+
 
 	</style>
 </head>
@@ -54,6 +72,11 @@
 				Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Possimus, quidem dolorem inventore facere aut aliquid doloribus voluptatem obcaecati magnam hic quod minima dolor animi perferendis magni quae minus consequuntur! Porro?	
 			</p>
 			<img class="article-img" src="https://imgs.search.brave.com/iZUApDaPIHNrdptmQL_NghXl4pQXbKQLIDZx9FULvSI/rs:fit:637:640:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzY2L2M0/LzdhLzY2YzQ3YTJk/OWMxMzA4NjhhNTIx/MjdlOWU4MDcyYWE1/LnBuZw" alt="Pop! Band Members">
+			<h2>💥pop!💥</h2>
+			<p>goes my heart 🎶❤️</p>
+			<p class="video">
+				<iframe  src="https://www.youtube.com/embed/9Jtl2_DeIPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</p>
 			</article>
 	</main>
 </body>
